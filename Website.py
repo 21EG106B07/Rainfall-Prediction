@@ -57,6 +57,7 @@ def show_about_page():
     st.pyplot(plt)
     plt.clf()
 
+'''
 def show_prediction_page():
     model_files = {
         'RandomForest': 'rain_prediction_pipeline_RandomForest.pkl',
@@ -152,6 +153,7 @@ def show_prediction_page():
     # Show a sample of the historical data
     st.header('Historical Data Sample')
     st.write(historical_data.head())
+'''
 
 show_about_page()
 
