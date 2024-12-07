@@ -158,13 +158,13 @@ def show_prediction_page():
 # show_about_page()
 
 def main():
-    st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Prediction", "About"])
+    # st.sidebar.title("Navigation")
+    # page = st.sidebar.radio("Go to", ["Prediction", "About"])
 
-    if page == "Prediction":
-        show_prediction_page()
-    elif page == "About":
-        show_about_page()
+    # if page == "Prediction":
+    #     show_prediction_page()
+    # elif page == "About":
+    show_about_page()
 
 if __name__ == "__main__":
     main()
